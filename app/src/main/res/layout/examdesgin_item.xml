@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_curve"
+        android:backgroundTint="#124578"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitleexamdesgin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/examdesgin"
+            android:layout_margin="20dp"
+            android:layout_marginLeft="30dp"
+            android:text="Title Text"
+            android:textSize="30dp"
+            android:textColor="#F7FBFF"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/answerGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RadioButton
+                android:id="@+id/answer1"
+                android:layout_width="wrap_content"
+                android:text="Answer 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/answer2"
+                android:layout_width="wrap_content"
+                android:text="Answer 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/answer3"
+                android:layout_width="wrap_content"
+                android:text="Answer 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/answer4"
+                android:layout_width="wrap_content"
+                android:text="Answer 1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+     </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

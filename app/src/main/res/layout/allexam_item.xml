@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="6dp">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingVertical="12dp"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/allexamcenter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ALL EXAM"
+                android:textColor="#124578"
+                android:layout_centerHorizontal="true"
+                android:textSize="24dp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTitleallexam"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Title Text"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+    </LinearLayout>
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+

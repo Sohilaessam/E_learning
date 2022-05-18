@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AskquestionActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ie" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_curve"
+            android:backgroundTint="#124578"
+            android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/questionedt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="32dp"
+            android:layout_margin="40dp"
+            android:padding="50dp"
+            android:layout_marginVertical="10dp"
+            android:background="@drawable/bg_edtitetext"
+            android:hint="ASK QUESTION"
+            android:textColor="#F7FBFF"
+            android:textColorHint="#F7FBFF"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/buttonsubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#FFFFFF"
+            android:paddingHorizontal="80dp"
+            android:layout_margin="10dp"
+            android:layout_centerHorizontal="true"
+            android:paddingVertical="16dp"
+            android:text="SUBMIT"
+            android:textColor="#0A3C38"
+            android:textSize="18sp"
+            android:onClick="askQuestion"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

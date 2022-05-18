@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.E_LEARING" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#6571D8</item>
+        <item name="colorPrimaryVariant">#020E3C</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+    </style>
+</resources>
